@@ -7,9 +7,9 @@ class Star
   float AbsMag; // Star's size
 
 
-  Star(String line)
+  Star(String lines)
   {
-    String[] parts = line.split(",");
+    String[] parts = lines.split(",");
     Hab = Float.parseFloat(parts[2]);
     DisplayName = parts[3];
     Distance = Float.parseFloat(parts[12]);
@@ -19,5 +19,11 @@ class Star
     AbsMag = Float.parseFloat(parts[16]);
   }
   
-  
+  /*Star(TableRow rows)
+  {
+    rows.addColumn("Hab", Table.FLOAT);
+    DisplayName = rows.addColumn("DisplayName", Table.STRING);
+    
+    
+  }*/
 }
