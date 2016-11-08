@@ -19,11 +19,4 @@ class Star
     AbsMag = Float.parseFloat(parts[16]);
   }
   
-  /*Star(TableRow rows)
-  {
-    rows.addColumn("Hab", Table.FLOAT);
-    DisplayName = rows.addColumn("DisplayName", Table.STRING);
-    
-    
-  }*/
 }
