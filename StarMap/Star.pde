@@ -9,14 +9,14 @@ class Star
 
   Star(String lines)
   {
-    String[] parts = lines.split(",");
-    Hab = Float.parseFloat(parts[2]);
-    DisplayName = parts[3];
-    Distance = Float.parseFloat(parts[12]);
-    Xg = Float.parseFloat(parts[13]);
-    Yg = Float.parseFloat(parts[14]);
-    Zg = Float.parseFloat(parts[15]);
-    AbsMag = Float.parseFloat(parts[16]);
+    String[] fields = lines.split(",");
+    Hab = Float.parseFloat(fields[2]);
+    DisplayName = fields[3];
+    Distance = Float.parseFloat(fields[12]);
+    Xg = Float.parseFloat(fields[13]);
+    Yg = Float.parseFloat(fields[14]);
+    Zg = Float.parseFloat(fields[15]);
+    AbsMag = Float.parseFloat(fields[16]);
   }
   
 }

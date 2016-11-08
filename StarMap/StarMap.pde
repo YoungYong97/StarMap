@@ -72,5 +72,6 @@ void drawStars()
   {
     line(Xg[i]-5,Yg[i]-5,Xg[i]+5,Yg[i]+5);
     line(Xg[i]-5,Yg[i]+5,Xg[i]+5,Yg[i]-5);
+    
   }
 }
